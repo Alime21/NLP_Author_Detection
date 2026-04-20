@@ -1,8 +1,8 @@
-# NLP Author Identification System 📚🤖
+# NLP Author Identification System 
 
 An end-to-end Natural Language Processing pipeline built from scratch to classify 19th-century literature. This project compares traditional statistical NLP techniques against Deep Learning architectures to predict the author of a given text.
 
-## 🧠 System Architecture
+##  System Architecture
 
 This project strictly avoids high-level machine learning libraries (like `scikit-learn`) for core algorithm implementation to demonstrate a deep mathematical understanding of vector spaces and probability models.
 
@@ -11,7 +11,7 @@ This project strictly avoids high-level machine learning libraries (like `scikit
 3. **Model 2: N-Gram Language Model:** A probabilistic Bigram model implementing Laplace (Add-1) Smoothing to handle unseen vocabulary sequences.
 4. **Model 3: Multi-Layer Perceptron (MLP):** A deep neural network built with PyTorch, illustrating the effects of overfitting on small datasets compared to statistical methods.
 
-## 📊 Performance & Results
+## Performance & Results
 
 The models were evaluated on a perfectly balanced test set (160 documents).
 
